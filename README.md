@@ -4,6 +4,8 @@
 # mypackage
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/sjmorris1/mypackage/workflows/R-CMD-check/badge.svg)](https://github.com/sjmorris1/mypackage/actions)
 <!-- badges: end -->
 
 The goal of mypackage is to print a personalised greeting from me
@@ -25,20 +27,19 @@ library(mypackage)
 ## basic example code
 hello()
 #> 
+#> 
 #>  ----- 
 #> Hello world from Sam! 
 #>  ------ 
 #>     \   
-#>      \
-#>               |
-#>               |
-#>               |
-#>              __
-#>           | /  \ |
-#>          \_\\  //_/
-#>           .'/()\'.
-#>            \\  //  [nosig]
-#> 
+#>      \   __
+#>    / \
+#>    | |
+#>    @ @
+#>   || ||
+#>   || ||
+#>   |\_/|
+#>   \___/ GB
 ```
 
 This is a basic example which shows you how to print a personalised
@@ -47,20 +48,15 @@ greeting:
 ``` r
 hello(name = "John Smith")
 #> 
-#>  -------------- 
+#>  ----- 
 #> Hello John Smith from Sam! 
-#>  --------------
-#>     \
-#>       \
-#>         \
-#>         /\_/\         _
-#>        /``   \       / )
-#>        |n n   |__   ( (
-#>       =(Y =.‛`   `\  \ \
-#>       {`"`        \  ) )
-#>       {       /    |/ /
-#>        \\   ,(     / /
-#>         ) ) /-‛\  ,_.‛
-#>   jgs  (,(,/ ((,,/
+#>  ------ 
+#>     \   
+#>      \
+#>        '\__
+#>       (o )     ___
+#>       <>(_)(_)(___)
+#>         < < > >
+#>         ' ' ` `  [nosig]
 #> 
 ```
